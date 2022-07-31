@@ -1,0 +1,152 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color6);
+  background-color: transparent;
+  color:white;
+  overflow-x: hidden;
+  --colorOverlay:#a2ff0060;
+  
+  
+}
+
+#body {
+  
+  background-color:#41424283;
+  background-image: url('./Quizzzz.png');
+  background-size:cover;
+  background-blend-mode: lighten;
+  padding: 0.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+.bigContainer{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 0;  
+}
+
+.container {
+
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: center;
+  margin:5px auto;
+  
+}
+
+input{
+
+  width: 3em;
+  height: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: large;
+  border-radius: 10%;
+  margin: 2px;
+  border: none;
+  border: black solid;
+}
+
+.green{
+  background-color: rgba(0, 255, 13, 0.514);
+  border-radius: 50%;
+  transform: rotateX(360deg);
+  transition: 0.4s;
+}
+
+.orange{
+  background-color: rgb(255, 68, 0);
+  border-radius: 50%;
+  transform: rotateX(360deg);
+  transition: 0.4s;
+}
+
+.yellow{
+  background-color: rgb(166, 255, 0);
+  border-radius: 50%;
+  transform: rotateX(3600deg);
+  transition: 0.4s;
+}
+
+.Legend{
+
+  margin: 80px auto;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: stretch;
+}
+
+.LegendChild {
+  border: solid 2px black;
+  border-radius: 40px;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  padding: 0.5em;
+  margin: 5px auto;
+  min-width: 280px;
+  gap: 20px;
+}
+
+.Legend h3{
+  color: black;
+  align-self: center;
+}
+
+.s{
+  min-height:50px;
+  width: 50px;
+  box-shadow: 2px 2px 5px black;
+  border: solid black;
+  border-radius: 50%;  
+}
+
+#title{
+  color: azure;
+  text-align: center;
+  margin-bottom: 60px;
+  max-width: fit-content;
+  text-shadow: 2px 2px 4px black;
+  border-radius: 2%;
+  padding: 5px 20px;
+  font-size: 4em;
+}
+
+#congratuation{
+  text-align: center;
+  color: azure;
+  text-shadow: 2px 2px 4px black;
+  margin: auto;
+
+}
+
+a{
+  text-decoration: none;
+  margin-top: 60px;
+}
+
+a h1{
+  color: azure;
+  border: solid 2px azure;
+  border-radius: 20px;
+  min-width: 180px;
+  text-align: center;
+}
+h5 {
+  margin: auto;
+  margin-top: 100px;
+  color: black;
+}
