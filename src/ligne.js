@@ -49,7 +49,7 @@ export default class Ligne extends React.Component{
         
     }
     componentWillMount(){
-        fetch('https://api.frontendexpert.io/api/fe/wordle-words')
+        fetch('https://murmuring-anchorage-40007.herokuapp.com/')
         .then(d => d.json())
         .then(d=>{
             this.setState({
